@@ -24,10 +24,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
         mainwindow.cpp \
-    numt.cpp
+    main.cpp \
+    platform.cpp
 
 HEADERS += \
         mainwindow.h \
-    numt.h
+    platform.h
